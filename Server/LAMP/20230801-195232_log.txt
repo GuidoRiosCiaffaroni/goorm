@@ -1,6 +1,0 @@
-------------------------------------------------------------------------------------------------------------------------------------------------
-Proceso			:	2
-Tipo Proceso	:	Instalacion Preliminar
-Instruccion		:	sudo apt upgrade -y
-Tiempo Inicio	:	20230801-195238
-Tiempo Fin		:	20230801-200334

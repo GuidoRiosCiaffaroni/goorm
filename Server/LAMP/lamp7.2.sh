@@ -255,6 +255,13 @@ echo ""
 sudo add-apt-repository -r "deb https://cli-assets.heroku.com/branches/stable/apt ./"
 bar 10
 
+
+
+
+
+
+
+
 ###############################################################################################################################################################
 echo ""
 Process "sudo apt update -y" 1 "Instalacion Preliminar"
@@ -291,9 +298,69 @@ bar 20
 
 ###############################################################################################################################################################
 echo ""
-Process "sudo apt install php -y" 1 "Instalacion LAMP"
+Process "sudo apt install php7.2 -y" 1 "Instalacion LAMP"
 echo ""
 sudo apt install php7.2 -y
 
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-mysql -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-mysql -y 
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-curl -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-curl -y  
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-xml -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-xml -y 
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-gd -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-gd -y 
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-opcache -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-opcache -y
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-mbstring -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-mbstring -y
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-tokenizer -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-tokenizer -y
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-json -y " 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-json -y 
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-bcmath -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-bcmath -y
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt-get install php7.2-zip -y" 1 "Instalacion LAMP"
+echo ""
+sudo apt-get install php7.2-zip -y
 
 fin

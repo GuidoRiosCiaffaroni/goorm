@@ -1,0 +1,12 @@
+To: guido.rios@redsalud.gov.cl
+From: guido.rios@redsalud.gov.cl
+Subject: A test
+
+<html>
+<head>
+  <title>Correo de prueba</title>
+</head>
+<body>
+  <h1>Este es un correo de prueba enviado con msmtp</h1>
+</body>
+</html>

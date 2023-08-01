@@ -120,6 +120,20 @@ echo "Tiempo Fin		:	$DATE_WITH_TIME" >> "$DATE_LOG"_log.txt
 
 
 
+
+fin()
+{
+a=`expr 0`
+
+}
+
+
+
+
+
+
+
+
 #echo -e "\033[0m" 
 
 #echo -e "\033[31m#### Red    \033[m"
@@ -155,6 +169,26 @@ echo ""
 sudo apt upgrade -y
 bar 10
 
+###############################################################################################################################################################
+echo ""
+Process "sudo apt autoremove" 1 "Instalacion Preliminar"
+echo ""
+sudo apt autoremove -y
+bar 10
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt autoclean" 1 "Instalacion Preliminar"
+echo ""
+sudo apt autoclean -y
+bar 10
+
+###############################################################################################################################################################
+echo ""
+Process "sudo apt dist-upgrade" 1 "Instalacion Preliminar"
+echo ""
+sudo apt dist-upgrade -y
+bar 10
 
 ###############################################################################################################################################################
 
@@ -177,6 +211,7 @@ Process "apt-get update -y" 1 "Instalacion Preliminar"
 echo ""
 apt-get update -y
 bar 10
+
 
 ###############################################################################################################################################################
 echo ""
@@ -258,92 +293,7 @@ bar 20
 echo ""
 Process "sudo apt install php -y" 1 "Instalacion LAMP"
 echo ""
-sudo apt install php7.27.2 -y
-bar 20
+sudo apt install php7.2 -y
 
 
-
-
-
-
-
-
-
-
-#sudo apt-get install php-xsl -y
-#sudo apt-get install php7.4-xsl -y
-##############################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sudo apt-get php-pgsql -y
-
-#sudo apt install 
-#php8.1 php8.1-cli 
-#php8.1-common 
-#php8.1-mysql 
-#php8.1-zip 
-#php8.1-curl 
-#php8.1-gd 
-#php8.1-mbstring 
-#php8.1-xml 
-#php8.1-bcmath 
-#php8.1-fpm 
-#php8.1-phpdbg 
-#php8.1-cgi 
-#libphp8.1-embed 
-#libapache2-mod-php8.1
-
-
-
-#https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
-
-#apt-get install tmux -y
-##############################################
-#apt-get install mc -y
-##############################################
-
-
-
-
-#apt-get install vim 
-##############################################
-#sudo apt-get install packname
-# chown -R man: /var/cache/man/
-#  chmod -R 755 /var/cache/man/
-#  apt install composer -y
-  
-  
-#  composer require consolidation/robo:^3
-#  composer update
-#  composer config cache-files-dir
-#  composer init -n --name symfony-mailer-test
-#  composer require symfony/mailer
-  
-  #https://github.com/composer/composer/issues/9097
-  
-
-
-#curl -sS https://getcomposer.org/installer | php
-#sudo mv composer.phar /usr/bin/composer
-#composer --version
-
-
-  
-  
-#sudo apt install ufw -y
-#sudo apt install apache2 -y 
-#sudo ufw app list
-#sudo ufw allow in "Apache"
-#sudo ufw status
+fin

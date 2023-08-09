@@ -57,7 +57,7 @@ public class DataG {
 		//************************************************************************************************		
 		
 		
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
+	SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
         String fechaHora = dateFormat.format(new Date());
         String nombreArchivo = fechaHora + "_datos_aleatorios.txt";
 
